@@ -1,0 +1,29 @@
+body{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#number{
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+}
+#button{
+    text-align: center;
+}
+button{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 12%;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    border-radius: 20%;
+}
+
+button:hover{
+    background-color: rgb(74, 73, 73);
+}

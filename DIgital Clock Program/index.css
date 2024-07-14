@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+#clock-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:block;
+    margin-top: 14%;
+    margin-left: 36%;
+    font-size: 60px;
+    position: absolute;
+    text-align: center;
+}
+#clock{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 7em;
+    background-color: azure;
+    border-radius: 10px;
+    backdrop-filter: blur(10000px);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.411);
+}

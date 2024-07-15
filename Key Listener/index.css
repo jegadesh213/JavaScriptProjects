@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    background-color: rgb(46, 46, 46);
+    overflow: hidden;
+}
+#box1{
+    position: relative;
+    background-color: #81d077;
+    width: 200px;
+    height: 200px;
+    font-size:7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 13px;
+    top: 0;
+    left: 0;
+    box-shadow: 10px 10px 30px rgba(245, 245, 245, 0.288);
+}
